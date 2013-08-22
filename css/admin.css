@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* ----------------------------------------------------------------------------
+					 	Silky Admin Template
+							   by Jeff Adams
+							   
+							   ADMIN (LOGIN) STYLING
+-------------------------------------------------------------------------- */
+body					{ background-color: #000; margin: 50px 0 50px 0; padding: 0; font-family: Verdana,Tahoma, Helvetica, sans-serif;}
+.png_bg		{}
+#admin_wrapper 		{ background-color: #FFFFFF; width: 400px; margin: 0px auto 0px auto; padding: 15px 20px 15px 20px; border: 5px solid #CCC;}
+#admin_wrapper h1 	{font-size:20px; padding: 3px 0 3px 0px; margin: 0px;}
+
+.success, .fail, .information, .attention {
+	margin-top: 8px; margin-bottom: 8px;
+	background-repeat: no-repeat; background-position: 10px center;
+	padding: 10px 10px 10px 40px;
+	height: 15px;
+	font-weight: bold; text-transform: uppercase; font-size: 11px;
+	line-height: 15px;
+	
+}
+
+/* Succes Notification Box */
+.success 				{
+	background-color: #E3FFDF;
+	border: 1px solid #97FF88;
+	color: #009900;
+	background-image: url(../images/accept.png);
+}
+/* Failure Notification Box */
+.fail 					{
+	background-color: #FFE1E1;
+	border: 1px solid #FF9595;
+	color: #CC3300;
+	background-image: url(../images/cancel.png);
+}
+/* Information Notification Box */
+.information 			{
+	background-color: #D7DFFF;
+	border: 1px solid #93A8FF;
+	color: #0033FF;
+	background-image: url(../images/information.png);
+}
+/* Attention Notification Box */
+.attention 		{ background-color: #FFFBCC; border: 1px solid #FFF35E;color: #C69E00; background-image: url(../images/error.png);}
+
+/* Notification Close Button */
+.close-notification					{
+	width: 16px; height: 16px;
+	position: absolute;
+	background: url(../images/close.png) no-repeat;
+	top: 5px; right: 5px;
+	cursor: pointer;
+}
+
+
+/*----  FORMS ---- */
+
+form  label 		{ font-weight: bold; font-size: 12px;margin-bottom: 10px;display: block;margin-top: 10px; }
+form p 			{ padding: 0px; margin: 0px;}
+form .input 		{ border: 1px solid #CCCCCC; padding: 7px; background-color: #F3F3F3; width: 386px; margin: 0px;}
+form select 		{ padding: 0px;margin: 0px;}
+
+form .button		{
+				 background-color: #D6D6D6;
+				 color: #666666;
+				 font-weight: bold;
+				 border: 1px solid #CCCCCC;
+				 margin-top: 5px;
+				 margin-bottom: 5px;
+				 padding: 5px 7px 5px 7px;}
+
+form .select		{ width: 20%;padding: 2px;margin: 0px;}
+/*input:focus, textarea:focus		{
+				 background-color: #FFFFE1;
+}*/
